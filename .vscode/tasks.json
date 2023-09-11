@@ -1,0 +1,16 @@
+{
+    "label": "compilar",
+    "type": "shell",
+    "command": "g++",
+    "args": [
+        "-std=c++11",
+        "-I", "C:/Users/juana/Downloads/SFML-2.6.0/include",
+        // ...otros argumentos de compilación...
+        "main.cpp",
+        "-o", "main.exe"
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}
